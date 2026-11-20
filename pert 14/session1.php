@@ -11,10 +11,8 @@ if (isset($_POST['Login'])) {
 
         echo "<h1>Anda berhasil LOGIN</h1>";
         echo "<h2>Klik <a href='session2.php'>di sini</a> untuk menuju halaman pemeriksaan session.</h2>";
-    } else {
-        echo "<h3>Username atau password salah!</h3>";
-    }
-}
+    } 
+       } else {
 ?>
 
 <html>
@@ -30,3 +28,7 @@ if (isset($_POST['Login'])) {
     </form>
 </body>
 </html>
+
+<?php
+}
+?>
